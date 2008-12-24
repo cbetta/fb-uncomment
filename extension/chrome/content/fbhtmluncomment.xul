@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="fbhtmluncomment.css" type="text/css"?>
+<overlay id="fbhtmluncomment" 
+         xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+ <script src="base64.js"/>         
+ <script src="fbhtmluncomment.js"/> 
+         
+ <statusbar id="status-bar">
+  <statusbarpanel id='infopanel' class="statusbarpanel-iconic" state="undetected" onclick='FBHTMLUncomment.showComment()'  />
+ </statusbar>
+</overlay>

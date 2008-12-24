@@ -1,0 +1,8 @@
+@import url(chrome://global/skin);
+#infopanel[state=detected] {
+	cursor:						pointer;
+	list-style-image:	url(chrome://fbhtmluncomment/content/logo-blue.gif);
+}
+#infopanel[state=undetected] {
+	list-style-image:	url(chrome://fbhtmluncomment/content/logo-grey.gif);
+}

@@ -1,0 +1,2 @@
+content   fbhtmluncomment                       chrome/content/
+overlay   chrome://browser/content/browser.xul  chrome://fbhtmluncomment/content/fbhtmluncomment.xul
