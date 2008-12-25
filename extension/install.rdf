@@ -9,7 +9,7 @@
   <RDF:Description RDF:about="urn:mozilla:install-manifest"
                    em:id="facebook-html-uncomment@cristianobetta.com"
                    em:name="Facebook HTML Uncomment"
-                   em:version="1.0"
+                   em:version="1.1"
                    em:creator="Cristiano Betta"
                    em:description="Helps Facebook App Developers debugging their application by notifying them when Facebook has commented the application server's output. It then shows the developer a icon to click on to see the server output"
                    em:homepageURL="http://facebook-html-uncomment.cristianobetta.com/">

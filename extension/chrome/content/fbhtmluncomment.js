@@ -55,11 +55,11 @@ var FBHTMLUncomment = {
 	//detects if this page has a hidden comment in the header
 	hasComment: function() {
 		//get the head element
-		var head 					= window.content.document.getElementsByTagName('head')[0];
+		var head 					= window.content.document.getElementsByTagName('html')[0];
 		//read out the content of the head
 		var head_content 	= head.innerHTML;
 		//check if there is a facebook hidden comment
-		return head_content.indexOf('<!--Rendering the page using the following FBML retrieved from ') >= 0;
+		return head_content.indexOf('<!--Rendering') >= 0;
 	},
 	
 	showComment: function() {
@@ -68,7 +68,7 @@ var FBHTMLUncomment = {
 		//if so, show the comment
 		if (detected) {
 			//get the head element
-			var head 					= window.content.document.getElementsByTagName('head')[0];
+			var head 					= window.content.document.getElementsByTagName('html')[0];
 			//read out the content of the head
 			var head_content 	= head.innerHTML;
 			//find the start of the doc output by looking at the end of the help message by facebook
